@@ -6,7 +6,7 @@
 //   concaténer caractère à une nouvelle chaîne
 // afficher la nouvelle chaîne
 
-$chaine = "Bonjour le monde";
+$chaine = "Bonjour tout le monde";
  $newChaine = "";
  for ($i = strlen($chaine) - 1; $i >= 0; $i--){
       $newChaine .= $chaine[$i];
