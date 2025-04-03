@@ -9,3 +9,17 @@
 // sinon
 //   afficher c
 
+
+$a = 5;
+$b = 10;
+$c = 7;
+
+if ($a >= $b && $a >= $c)  {
+    echo $a . " est le plus grand nombre.";
+} else if($b >= $a && $b >= $c) {
+    echo $b . " est le plus grand nombre.";
+} else {
+    echo $c . " est le plus grand nombre.";
+}
+
+
